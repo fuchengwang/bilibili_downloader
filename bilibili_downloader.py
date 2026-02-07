@@ -43,7 +43,8 @@ def migrate_cookie():
 # 执行迁移
 migrate_cookie()
 
-USER_MANUAL_COOKIE_PATH = "/Users/fucheng/Playground/cookie"
+# 手动 Cookie 导入路径：脚本所在目录下的 cookie 文件
+USER_MANUAL_COOKIE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cookie")
 
 def is_login(session):
     """检查是否登录"""

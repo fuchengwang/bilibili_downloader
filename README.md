@@ -90,7 +90,7 @@ python bilibili_downloader.py
 |------|------|----------|
 | **1. 浏览器授权** | 自动打开浏览器登录页，完成后自动提取 Cookie | 推荐大多数用户使用 |
 | **2. 扫码登录** | 终端显示二维码，用 Bilibili App 扫码 | 无法使用浏览器时 |
-| **3. 导入 Cookie** | 从 `/Users/fu cheng wang/Playground/cookie` 读取 | 高级用户手动管理 Cookie |
+| **3. 导入 Cookie** | 从脚本目录下的 `cookie` 文件读取 | 高级用户手动管理 Cookie |
 
 > 💡 登录成功后，Cookie 会自动保存，下次运行无需重复登录。
 
@@ -123,7 +123,7 @@ bilibili_downloader/
 ### Cookie 存储位置
 
 - **自动保存位置**: `~/.bili_cookies.txt`（用户家目录下的隐藏文件）
-- **手动导入位置**: `/Users/fuchengwang/Playground/cookie`
+- **手动导入位置**: 脚本目录下的 `cookie` 文件
 
 ### 下载文件位置
 
@@ -143,8 +143,8 @@ COOKIE_FILE = os.path.expanduser("~/.bili_cookies.txt")
 # 默认下载目录
 DOWNLOAD_DIR = os.path.expanduser("~/Downloads")
 
-# 手动 Cookie 导入路径
-USER_MANUAL_COOKIE_PATH = "/Users/fucheng/Playground/cookie"
+# 手动 Cookie 导入路径（脚本所在目录下的 cookie 文件）
+USER_MANUAL_COOKIE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cookie")
 ```
 
 ---
