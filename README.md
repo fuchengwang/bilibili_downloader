@@ -43,7 +43,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/你的用户名/bilibili_downloader.git
+git clone https://github.com/fuchengwang/bilibili_downloader.git
 cd bilibili_downloader
 
 # 2. 安装依赖
@@ -197,4 +197,4 @@ A: 请确保：
 
 ## 📮 联系方式
 
-如有问题或建议，欢迎通过 [Issues](https://github.com/你的用户名/bilibili_downloader/issues) 提交反馈。
+如有问题或建议，欢迎通过 [Issues](https://github.com/fuchengwang/bilibili_downloader/issues) 提交反馈。
