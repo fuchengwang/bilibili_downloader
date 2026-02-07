@@ -91,7 +91,7 @@ python bilibili_downloader.py
 | **2. 扫码登录** | 终端显示二维码，用 Bilibili App 扫码 | 无法使用浏览器时 |
 | **3. 导入 Cookie** | 从脚本目录下的 `cookie` 文件读取 | 高级用户手动管理 Cookie |
 
-> 登录成功后，Cookie 会自动保存，下次运行无需重复登录。
+>  登录成功后，Cookie 会自动保存，下次运行无需重复登录。
 
 ### 下载合集
 
