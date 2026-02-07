@@ -1,0 +1,25 @@
+# Python 字节码
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS 系统文件
+.DS_Store
+
+# 本地 Cookie 文件（敏感信息，不应上传）
+bili_cookies.txt
+cookie
+
+# 日志文件
+*.log

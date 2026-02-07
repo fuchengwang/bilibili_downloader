@@ -1,0 +1,4 @@
+# Bilibili 视频下载器依赖
+yt-dlp>=2024.1.0
+requests>=2.28.0
+qrcode>=7.4.0
