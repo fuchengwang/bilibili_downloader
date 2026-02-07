@@ -14,7 +14,7 @@ import shutil
 # Cookie 存储路径：使用用户家目录下的隐藏文件，避免污染当前工作目录
 COOKIE_FILE = os.path.expanduser("~/.bili_cookies.txt")
 OLD_COOKIE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bili_cookies.txt")
-# 默认下载目录：用户家目录下的 Downloads 文件夹
+# 默认下载目录：用户目录下的 Downloads 文件夹
 DOWNLOAD_DIR = os.path.expanduser("~/Downloads")
 
 def migrate_cookie():

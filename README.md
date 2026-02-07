@@ -1,4 +1,4 @@
-# 📺 Bilibili 视频下载器
+# Bilibili 视频下载器
 
 一个简洁高效的 Bilibili 视频下载工具，支持多种登录方式、单视频及合集下载，自动选择最佳画质和编码格式。
 
@@ -8,31 +8,30 @@
 
 ---
 
-## ✨ 功能特性
+## 功能特性
 
-- 🔐 **多种登录方式**
+- **多种登录方式**
   - 浏览器授权登录（推荐，支持手机验证码 + 拼图验证）
   - 手机 App 扫码登录
   - 本地 Cookie 文件导入
 
-- 📥 **灵活的下载选项**
-  - 支持单视频下载
+- 支持单视频下载
   - 支持合集/播放列表批量下载
   - 自动识别链接类型
 
-- 🎬 **智能格式选择**
+- **智能格式选择**
   - 优先选择 H.264 (AVC) 编码，确保 macOS QuickTime 兼容性
   - 优先匹配 AAC 音频编码
   - 最高支持 1080p 分辨率
 
-- 💾 **便捷的文件管理**
+- **便捷的文件管理**
   - 默认保存至 `~/Downloads` 目录
   - 合集自动创建独立文件夹
   - Cookie 统一存储在 `~/.bili_cookies.txt`
 
 ---
 
-## 🚀 快速开始
+## 快速开始
 
 ### 环境要求
 
@@ -69,7 +68,7 @@ python bilibili_downloader.py
 
 ---
 
-## 📖 详细使用说明
+## 详细使用说明
 
 ### 首次登录
 
@@ -111,7 +110,7 @@ python bilibili_downloader.py
 
 ---
 
-## 📂 文件结构
+## 文件结构
 
 ```
 bilibili_downloader/
@@ -132,7 +131,7 @@ bilibili_downloader/
 
 ---
 
-## ⚙️ 配置说明
+## 配置说明
 
 如需自定义配置，可直接修改脚本开头的常量：
 
@@ -149,7 +148,7 @@ USER_MANUAL_COOKIE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)
 
 ---
 
-## 🔧 常见问题
+## 常见问题
 
 ### Q: 提示"登录状态已失效"怎么办？
 A: Cookie 已过期，请重新选择一种方式登录即可。
@@ -171,13 +170,13 @@ A: 请确保：
 
 ---
 
-## 📜 开源协议
+## 开源协议
 
 本项目采用 [MIT License](LICENSE) 开源协议。
 
 ---
 
-## 🤝 贡献指南
+## 贡献指南
 
 欢迎提交 Issue 和 Pull Request！
 
@@ -189,12 +188,12 @@ A: 请确保：
 
 ---
 
-## ⭐ Star History
+## Star History
 
 如果这个项目对你有帮助，请给个 ⭐ 支持一下！
 
 ---
 
-## 📮 联系方式
+## 联系方式
 
 如有问题或建议，欢迎通过 [Issues](https://github.com/fuchengwang/bilibili_downloader/issues) 提交反馈。
